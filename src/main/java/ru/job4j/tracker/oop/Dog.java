@@ -7,3 +7,4 @@ public class Dog {
         Dog zhuchka = new Dog();
     }
 }
+
