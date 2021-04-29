@@ -1,4 +1,4 @@
-package ru.job4j.tracker.oop;
+/*package ru.job4j.tracker.oop;
 
 public class BallStory {
     public static void main(String[] args) {
@@ -11,3 +11,5 @@ public class BallStory {
         fox.eat(ball);
     }
 }
+
+ */
