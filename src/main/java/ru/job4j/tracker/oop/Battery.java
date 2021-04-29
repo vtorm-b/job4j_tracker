@@ -15,7 +15,7 @@ public class Battery {
         Battery one = new Battery(10);
         Battery second = new Battery(5);
         System.out.println("Старт " + one.load + " Космос " + second.load);
-        one.exchange(second);
+        second.exchange(one);
         System.out.println("Старт " + one.load + " Космос " + second.load);
     }
 }
