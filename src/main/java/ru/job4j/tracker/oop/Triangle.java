@@ -14,12 +14,9 @@ public class Triangle {
     public double period(Double a, double b, double c) {
         return (a + b + c) / 2;
     }
-
     public boolean exist(double ab, double ac, double bc) {
        return  (ab + ac) != bc;
-
     }
-
         public double area () {
             double rsl = -1;
             double ab = first.distance(second);
