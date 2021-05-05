@@ -5,12 +5,10 @@ public class Max {
         return left > rigth ? left : rigth;
     }
     public static int max(int left, int rigth, int one) {
-        int tmp = max(rigth, one);
-        return max(left, tmp);
+        return max(left,max(rigth, one));
     }
     public static int max(int left, int rigth, int one, int two) {
-        int tmp = max(rigth, one, two);
-        return max(left, tmp);
+        return max(left, max(rigth, one, two));
     }
     public static void main(String[]args) {
         int rsl = Max.max(4,2);
