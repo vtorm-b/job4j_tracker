@@ -8,17 +8,23 @@ public class Item {
     public Item(String name) {
         this.name = name;
     }
+    public Item(int id,String name, int price) {
+        this.name = name;
+        this.id = id;
+        this.price = price;
+    }
 
     public void printInfo() {
-        System.out.println("Код товара " + id);
-        System.out.println("Название товара " + name);
-        System.out.println("Цена товара " + price);
+        System.out.println("Код товара: - " + id);
+        System.out.println("Название товара: - " + name);
+        System.out.println("Цена товара: - " + price + " руб.");
         System.out.println();
     }
     public static void main(String[] args) {
-        Item first = new Item();
+        Item first = new Item("тетрадь");
         first.printInfo();
-
+        Item second = new Item(001,"карандаш", 10);
+        second.printInfo();
     }
 
     public int getId() {

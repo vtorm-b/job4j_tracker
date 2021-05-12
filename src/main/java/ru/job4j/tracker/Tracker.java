@@ -1,4 +1,4 @@
-package ru.job4j.tracker;
+/*package ru.job4j.tracker;
 
 public class Tracker {
     private final Item[] items = new Item[100];
@@ -23,4 +23,6 @@ public class Tracker {
         return rsl;
     }
 }
+
+ */
 
