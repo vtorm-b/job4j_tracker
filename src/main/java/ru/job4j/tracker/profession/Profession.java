@@ -13,7 +13,7 @@ public class Profession {
         this.birthday = birthday;
     }
 
-    public static void main(String[] args) {
-        Profession person = new Profession();
-    }
+   // public static void main(String[] args) {
+     //   Profession person = new Profession();
+   // }
 }
