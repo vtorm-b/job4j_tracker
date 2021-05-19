@@ -5,4 +5,4 @@ public class Surgeon extends Doctror {
         super(name, surname, education, birthday);
     }
 }
-}
+
