@@ -1,4 +1,4 @@
-package ru.job4j.tracker;
+/*package ru.job4j.tracker;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -11,6 +11,8 @@ public class StartUI {
         System.out.println(result);
     }
 }
+
+ */
 
 
 
