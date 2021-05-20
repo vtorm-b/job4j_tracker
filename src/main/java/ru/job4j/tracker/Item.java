@@ -8,8 +8,8 @@ public class Item {
     private int price;
     private LocalDateTime created = LocalDateTime.now();
 
-    public getItem(LocalDateTime created){
-        this.created = created;
+    public LocalDateTime getCreated(){
+        return created;
     }
 
     public Item(String name) {
