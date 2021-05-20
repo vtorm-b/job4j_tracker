@@ -1,4 +1,4 @@
-/*package ru.job4j.tracker.profession;
+package ru.job4j.tracker.profession;
 
 public class Programmer extends Engineer{
 
@@ -7,4 +7,4 @@ public class Programmer extends Engineer{
     }
 }
 
- */
+

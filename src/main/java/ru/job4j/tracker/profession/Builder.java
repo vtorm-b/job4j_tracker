@@ -1,4 +1,4 @@
-/*package ru.job4j.tracker.profession;
+package ru.job4j.tracker.profession;
 
 public class Builder extends Engineer {
     public Builder(String name, String surname, String education, int birthday) {
@@ -6,4 +6,4 @@ public class Builder extends Engineer {
     }
 }
 
- */
+

@@ -4,7 +4,7 @@ public class Doctror extends Profession {
 
     private String diagnosis;
     public String getDiagnosis; {
-        //return diagnosis;
+        return diagnosis;
     }
 
     public Doctror(String name, String surname, String education, int birthday) {
