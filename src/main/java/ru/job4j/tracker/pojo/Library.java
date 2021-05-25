@@ -12,17 +12,18 @@ public class Library {
            for (int i = 0; i < tom.length; i++) {
                Book bk = tom[i];
                System.out.println(bk.getName());
-               System.out.println();
            Book tmp = tom[0];
-            tom[0] = tom[2];
-            tom[2] = tmp;
-               System.out.println(bk.getName());
+           tom[0] = tom[2];
+           tom[2] = tmp;
+               System.out.println(tmp.getName());
+               for (int j = 0; j < tom.length; j++) {
+                   Book a = tom[j];
+                   if (j > 0){
+                       System.out.println(a.getName());
+                   }
 
-
+               }
+               }
         }
-
-
-
-;
     }
-}
+
