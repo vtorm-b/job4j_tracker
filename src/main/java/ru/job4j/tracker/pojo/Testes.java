@@ -13,7 +13,10 @@ public class Testes {
         products[1] = null;
         for (int i = 0; i < products.length; i++) {
             System.out.println(i);
-
         }
+        Product first = new Product("Milk", 100);
+        Product second = new Product("Milk", 100);
+        boolean eq = first.equals(second);
+        System.out.println(eq);
 }
 }
