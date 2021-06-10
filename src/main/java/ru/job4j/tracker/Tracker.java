@@ -1,6 +1,5 @@
 package ru.job4j.tracker;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class Tracker {
@@ -63,12 +62,15 @@ public class Tracker {
          */
         int index = indexOf(id);
         if (index != -1) {
+            return index != -1;
             item.setId(id);
             items[index] = item;
-            return index != -1;
         }
+        return false;
     }
 }
+
+
 
 
 
