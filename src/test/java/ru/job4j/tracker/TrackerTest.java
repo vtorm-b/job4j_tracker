@@ -1,6 +1,6 @@
 package ru.job4j.tracker;
 
-import org.junit.Test;
+/*import org.junit.Test;
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
 import static org.hamcrest.Matchers.nullValue;
@@ -27,7 +27,7 @@ public class TrackerTest {
 }
 
 
-   /* @Test
+    @Test
     public void whenReplace() {
         Tracker tracker = new Tracker();
         Item bug = new Item();
@@ -40,6 +40,7 @@ public class TrackerTest {
         assertThat(tracker.findById(id).getName(), is("Bug with description"));
     }
 }
+*/
 
-    */
+
 

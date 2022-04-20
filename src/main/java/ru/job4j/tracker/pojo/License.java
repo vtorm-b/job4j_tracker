@@ -9,6 +9,49 @@ public class License {
     private String code;
     private Date created;
 
+    /*public String getOwner() {
+        return owner;
+    }
+
+    public void setOwner(String owner) {
+        this.owner = owner;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public String getCode() {
+        return code;
+    }
+
+    public void setCode(String code) {
+        this.code = code;
+    }
+
+    public Date getCreated() {
+        return created;
+    }
+
+    public void setCreated(Date created) {
+        this.created = created;
+    }
+
+    public static void main(String[] args) {
+        License license = new License();
+        license.setOwner("Sergey");
+        license.setModel("daster");
+        license.setCode("x111xx");
+        license.setCreated(new Date());
+        System.out.println(license.getOwner() + " avto " + license.getModel()
+                + ":" + license.getCode());
+
+    }*/
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -49,7 +92,7 @@ public class License {
         this.code = code;
     }
 
-    public Date getCreated() {
+    public Date getCreated1234() {
         return created;
     }
 

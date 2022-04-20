@@ -14,17 +14,19 @@ public class Tracker {
     }
 
     public Item findById(int id) {
-       /* Item item = null;
+       Item rsl = null;
         for (int index = 0; index < size; index++) {
-            Item current = items[index];
-            if (current.getId() == id) {
-                item = current;
+            Item item = items[index];
+            if (item.getId() == id) {
+                rsl = item;
                 break;
             }
+        }
 
-        */
         int index = indexOf(id);
-        return index != -1 ? items[index] : null;
+        return index != -1 ?
+         items[index] : null;
+
     }
 
     public Item[] findAll() {
