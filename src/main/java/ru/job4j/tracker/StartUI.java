@@ -19,9 +19,7 @@ public class StartUI {
             System.out.println("Добавлена заявка: " + item);
         } else if (select == 6){
             run = false;
-                    }
-        if(select != 6) {
-          System.out.println("Пользователь выбрал:" + select);
+            System.out.println("Пользователь выбрал:" + select);
         } else {
             run = false;
         }
