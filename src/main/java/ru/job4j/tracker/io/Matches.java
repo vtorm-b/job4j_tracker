@@ -13,21 +13,21 @@ public class Matches {
             System.out.println(player + " Введите число от 1 до 3 :");
             int matches = Integer.parseInt(input.nextLine());
             turn = !turn;
-                if (matches < 1 || matches > 3 || matches > count) {
-                    System.out.println("Ввели неверное число");
-                    System.out.println("Остаток: " + count);
-                } else {
-                    turn = !turn;
-                    count = count - matches;
-                }
-                if (!turn) {
-                    System.out.println("Выиграл первый игрок!");
-                } else {
-                    System.out.println("Выиграл второй игрок!");
-                }
+            if (matches < 1 || matches > 3 || matches > count) {
+                System.out.println("Ввели неверное число");
+                System.out.println("Остаток: " + count);
+            } else {
+                turn = !turn;
+                count = count - matches;
+            }
+            if (!turn) {
+                System.out.println("Выиграл первый игрок!");
+            } else {
+                System.out.println("Выиграл второй игрок!");
             }
         }
     }
+}
 
 
 
