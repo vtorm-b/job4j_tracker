@@ -37,9 +37,6 @@ public class StartUI {
         }
     }
 
-
-
-
     private void showMenu() {
         String[] menu  = { "Add new item", "Show all items", "Edit item",
                 "Delet item", "Find items by name", "Exit program" } ;
