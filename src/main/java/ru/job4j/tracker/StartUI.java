@@ -34,8 +34,8 @@ public class StartUI {
                     System.out.println("Хранилище не содержит заявок");
                 }
             }
+        }
     }
-}
 
     private void showMenu() {
         String[] menu  = { "Add new item", "Show all items", "Edit item",
