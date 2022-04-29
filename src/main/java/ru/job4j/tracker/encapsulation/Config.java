@@ -9,12 +9,12 @@ public class Config {
         this.name = name;
     }
     public void print() {
-        System.out.println(position);
+       System.out.println(position);
     }
     public String getProperties(String key) {
-        return search (key);
+       return search (key);
     }
     private String search(String key) {
-        return key;
+       return key;
     }
 }

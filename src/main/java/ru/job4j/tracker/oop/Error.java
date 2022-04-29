@@ -18,7 +18,6 @@ public class Error {
         System.out.println("Статус " + status);
         System.out.println("Сообщение " + message);
     }
-
     public static void main(String[] args) {
         Error err = new Error();
         Error error = new Error(true,10,"online");

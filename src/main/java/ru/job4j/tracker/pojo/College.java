@@ -8,8 +8,7 @@ public class College {
         student.setStudent("Sergey Gerasimov");
         student.setGroup("development");
         student.setCreated(new Date());
-        System.out.println("студент: " + student.getStudent() + ", " + "группа: " + student.getGroup() + ", " + "дата: "
-                + student.getCreated());
-
+        System.out.println("студент: " + student.getStudent() + ", " + "группа: "
+                + student.getGroup() + ", " + "дата: " + student.getCreated());
     }
 }

@@ -1,12 +1,11 @@
 package ru.job4j.tracker.pojo;
 
 public class Shop {
-    public static int indexOfNull(Product[]products){
+    public static int indexOfNull(Product[]products) {
         for (int i = 0; i < products.length; i++) {
-            if(products[i] == null){
+            if(products[i] == null) {
                 return i;
             }
-
         }
         return -1;
     }
@@ -17,10 +16,9 @@ public class Shop {
         products[2] = new Product("egg",19);
         for (int i = 0; i < products.length; i++) {
             Product product = products[i];
-            if(product != null){
+            if(product != null) {
                 System.out.println(product.getName());
             }
-
         }
     }
 }

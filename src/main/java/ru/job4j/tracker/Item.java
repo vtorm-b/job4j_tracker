@@ -8,10 +8,9 @@ public class Item {
     private int price;
     private LocalDateTime created = LocalDateTime.now();
 
-    public LocalDateTime getCreated(){
+    public LocalDateTime getCreated() {
         return created;
     }
-
     public Item(String name) {
         this.name = name;
     }
@@ -20,7 +19,6 @@ public class Item {
         this.id = id;
         this.price = price;
     }
-
     public void printInfo() {
         System.out.println("Код товара: - " + id);
         System.out.println("Название товара: - " + name);
@@ -33,19 +31,15 @@ public class Item {
         Item second = new Item(001,"карандаш", 10);
         second.printInfo();
     }
-
     public int getId() {
         return id;
     }
-
     public void setId(int id) {
         this.id = id;
     }
-
     public String getName() {
         return name;
     }
-
     public void setName(String name) {
         this.name = name;
     }

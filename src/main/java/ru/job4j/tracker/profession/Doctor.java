@@ -10,7 +10,8 @@ public class Doctor extends Profession {
         this.pacient = pasient;
     }
 
-    public Doctor(String name, String surname, String education, int birthday, String diagnosis, String attendingPhysician) {
+    public Doctor(String name, String surname, String education,
+                  int birthday, String diagnosis, String attendingPhysician) {
         super(name, surname, education, birthday);
         this.diagnosis = diagnosis;
         this.attendingPhysician = attendingPhysician;

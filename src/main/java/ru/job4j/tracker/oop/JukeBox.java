@@ -13,7 +13,6 @@ public class JukeBox {
     public static void main(String[] args) {
         JukeBox vasya = new JukeBox();
         vasya.song(3);
-
     }
 }
 

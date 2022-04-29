@@ -67,35 +67,27 @@ public class License {
     public int hashCode() {
         return Objects.hash(owner, model, code, created);
     }
-
     public String getOwner() {
         return owner;
     }
-
     public void setOwner(String owner) {
         this.owner = owner;
     }
-
     public String getModel() {
         return model;
     }
-
     public void setModel(String model) {
         this.model = model;
     }
-
     public String getCode() {
         return code;
     }
-
     public void setCode(String code) {
         this.code = code;
     }
-
     public Date getCreated1234() {
         return created;
     }
-
     public void setCreated(Date created) {
         this.created = created;
     }
