@@ -20,11 +20,11 @@ public class Matches {
                 turn = !turn;
                 count = count - matches;
             }
-            if (!turn) {
-                System.out.println("Выиграл первый игрок!");
-            } else {
-                System.out.println("Выиграл второй игрок!");
-            }
+        }
+        if (!turn) {
+            System.out.println("Выиграл первый игрок!");
+        } else {
+            System.out.println("Выиграл второй игрок!");
         }
     }
 }
