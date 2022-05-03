@@ -48,7 +48,13 @@ public class StartUI {
                 } else {
                     System.out.println("Ошибка удаления заявки");
                 }
-            } else if (select == 4) {
+            }else if (select == 4) {
+                System.out.println("===Find items by Id===");
+                System.out.print("Enter Id");
+                int Id = Integer.parseInt(scanner.nextLine());
+                Item item = tracker.findById(Id);
+                System.out.println(item);
+            } else if (select == 5) {
                 System.out.println("=== Find items by name ===");
                 System.out.print("Enter name: ");
                 String name = scanner.nextLine();
@@ -70,7 +76,7 @@ public class StartUI {
         }
         private void showMenu() {
         String[] menu  = {"Add new item", "Show all items", "Edit item",
-                "Delete item", "Find items by name", "Exit program"} ;
+                "Delete item",  "Find items by ID", "Find items by name", "Exit program"} ;
         System.out.println("Menu:");
         for (int i = 0; i < menu.length; i++) {
         System.out.println(i + "." + menu[i]);
