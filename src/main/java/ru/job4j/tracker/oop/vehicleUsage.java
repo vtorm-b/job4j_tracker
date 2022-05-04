@@ -11,5 +11,8 @@ public class vehicleUsage {
         for (Vehicle a : vehicles) {
             a.move();
         }
+        for (Vehicle b : vehicles) {
+            b.type();
+        }
     }
 }
