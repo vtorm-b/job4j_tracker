@@ -5,5 +5,6 @@ public class College {
         Freshman freshman = new Freshman();
         Object obj = freshman;
         System.out.println(new Freshman());
+        System.out.println(new Object());
     }
 }
