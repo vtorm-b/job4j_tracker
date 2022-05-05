@@ -1,10 +1,10 @@
 package ru.job4j.tracker;
 
 public interface Vehicle {
-    String name = new String();
+    String nm = new String();
     public void move();
 
-    String type = new String();
+    String tp = new String();
     public void type();
     }
 
