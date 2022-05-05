@@ -2,7 +2,7 @@ package ru.job4j.tracker;
 
 public class StartUI {
 
-    public void init (Input scanner, Tracker tracker) {
+    public void init(Input scanner, Tracker tracker) {
         boolean run = true;
         while (run) {
             showMenu();
@@ -46,7 +46,7 @@ public class StartUI {
                 } else {
                     System.out.println("Ошибка удаления заявки");
                 }
-            }else if (select == 4) {
+            } else if (select == 4) {
                 System.out.println("===Find items by Id===");
                 System.out.print("Enter Id");
                 int Id = Integer.parseInt(scanner.askStr("Введите id заявки:"));
