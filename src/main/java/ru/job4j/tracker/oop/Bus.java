@@ -6,7 +6,7 @@ public class Bus implements Vehicle {
     @Override
     public void move() {
         System.out.println(NM + "автобус двигается по скоростным трассам");
-        System.out.println(tp + "Транспортная компания Покатушка ");
+        System.out.println(TP + "Транспортная компания Покатушка ");
     }
 
     @Override

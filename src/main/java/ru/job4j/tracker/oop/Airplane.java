@@ -6,7 +6,7 @@ public class Airplane implements Vehicle {
     @Override
     public void move() {
         System.out.println(NM + "самолет летает по воздуху");
-        System.out.println(tp + "Компания Аэрофлот");
+        System.out.println(TP + "Компания Аэрофлот");
     }
     @Override
     public void type() {

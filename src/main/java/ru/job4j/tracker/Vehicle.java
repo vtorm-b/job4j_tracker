@@ -4,7 +4,7 @@ public interface Vehicle {
     String NM = new String();
     public void move();
 
-    String tp = new String();
+    String TP = new String();
     public void type();
     }
 
