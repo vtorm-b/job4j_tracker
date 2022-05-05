@@ -22,7 +22,6 @@ public class Product {
     public int hashCode() {
         return Objects.hash(name, count);
     }
-
     public Product(String name, int count) {
         this.name = name;
         this.count = count;
