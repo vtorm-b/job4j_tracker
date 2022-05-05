@@ -49,8 +49,8 @@ public class StartUI {
             } else if (select == 4) {
                 System.out.println("===Find items by Id===");
                 System.out.print("Enter Id");
-                int Id = Integer.parseInt(scanner.askStr("Введите id заявки:"));
-                Item item = tracker.findById(Id);
+                int id = Integer.parseInt(scanner.askStr("Введите id заявки:"));
+                Item item = tracker.findById(id);
                 System.out.println(item);
             } else if (select == 5) {
                 System.out.println("=== Find items by name ===");
@@ -72,6 +72,7 @@ public class StartUI {
                 }
             }
         }
+
         private void showMenu() {
         String[] menu  = {"Add new item", "Show all items", "Edit item",
                 "Delete item",  "Find items by ID", "Find items by name", "Exit program"} ;
