@@ -75,7 +75,7 @@ public class StartUI {
 
         private void showMenu() {
         String[] menu  = {"Add new item", "Show all items", "Edit item",
-                "Delete item",  "Find items by ID", "Find items by name", "Exit program"} ;
+                "Delete item",  "Find items by ID", "Find items by name", "Exit program"};
         System.out.println("Menu:");
         for (int i = 0; i < menu.length; i++) {
         System.out.println(i + "." + menu[i]);
