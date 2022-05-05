@@ -8,6 +8,7 @@ public class Train implements Vehicle {
         System.out.println(NM + "поезд передвигается по рельсам");
         System.out.println(TP + "Компания OAO РЖД");
     }
+
     @Override
     public void type() {
         //System.out.println(type + "Компания OAO РЖД");

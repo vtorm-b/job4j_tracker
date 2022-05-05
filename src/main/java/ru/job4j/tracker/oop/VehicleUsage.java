@@ -2,7 +2,7 @@ package ru.job4j.tracker.oop;
 
 import ru.job4j.tracker.Vehicle;
 
-public class vehicleUsage {
+public class VehicleUsage {
     public static void main(String[] args) {
         Vehicle airplane = new Airplane();
         Vehicle train = new Train();

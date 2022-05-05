@@ -8,11 +8,9 @@ public class License {
     private String model;
     private String code;
     private Date created;
-
-    /*public String getOwner() {
+    public String getOwner() {
         return owner;
     }
-
     public void setOwner(String owner) {
         this.owner = owner;
     }
@@ -49,46 +47,59 @@ public class License {
         license.setCreated(new Date());
         System.out.println(license.getOwner() + " avto " + license.getModel()
                 + ":" + license.getCode());
-
-    }*/
+    }
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        License license = (License) o;
-        return Objects.equals(owner, license.owner)
-                && Objects.equals(model, license.model)
-                && Objects.equals(code, license.code)
-                && Objects.equals(created, license.created);
+        if (this == o) {
+            return true;
+            if (o == null || getClass() != o.getClass()) {
+                return false;
+                License license = (License) o;
+                return Objects.equals(owner, license.owner)
+                        && Objects.equals(model, license.model)
+                        && Objects.equals(code, license.code)
+                        && Objects.equals(created, license.created);
+            }
+        }
     }
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(owner, model, code, created);
-    }
-    public String getOwner() {
-        return owner;
-    }
-    public void setOwner(String owner) {
-        this.owner = owner;
-    }
-    public String getModel() {
-        return model;
-    }
-    public void setModel(String model) {
-        this.model = model;
-    }
-    public String getCode() {
-        return code;
-    }
-    public void setCode(String code) {
-        this.code = code;
-    }
-    public Date getCreated1234() {
-        return created;
-    }
-    public void setCreated(Date created) {
-        this.created = created;
-    }
-}
+                   @Override
+            public int hashCode() {
+                return Objects.hash(owner, model, code, created);
+            }
+
+            public String getOwner() {
+                return owner;
+            }
+
+            public void setOwner(String owner) {
+                this.owner = owner;
+            }
+
+            public String getModel() {
+                return model;
+            }
+
+            public void setModel(String model) {
+                this.model = model;
+            }
+
+            public String getCode() {
+                return code;
+            }
+
+            public void setCode(String code) {
+                this.code = code;
+            }
+
+            public Date getCreated1234() {
+                return created;
+            }
+
+            public void setCreated(Date created) {
+                this.created = created;
+            }
+        }
+
+

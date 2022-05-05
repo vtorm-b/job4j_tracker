@@ -13,10 +13,9 @@ public class UsagePackageDate {
         System.out.println("Текущее время: " + currentTime);
         LocalDateTime currentDateTime = LocalDateTime.now();
         System.out.println("Текущая дата и время до форматирования: " + currentDateTime);
-
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("Сегодня EEEE, dd MMMM yyyy HH:mm:ss");
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("Сегодня EEEE, dd MMMM yyyy "
+                + "HH:mm:ss");
         String currentDataTimeFormat = currentDateTime.format(formatter);
         System.out.println("Текущая дата и время после форматирования: " + currentDataTimeFormat);
-
     }
 }

@@ -1,12 +1,12 @@
 package ru.job4j.tracker.oop;
 
 public class HierarchyUsage {
-    Car car = new Car();
-    Transport tp = car;
-    Object obj =  car;
-    Object ocar = new Car();
-    Car carFromObject = (Car) ocar;
-    Object biycycle = new Biycicle();
+    private Car car = new Car();
+    private Transport tp = car;
+    private Object obj =  car;
+    private Object ocar = new Car();
+    private Car carFromObject = (Car) ocar;
+    private Object biycycle = new Biycicle();
     private Object biycicle;
-    Car cb = (Car) biycicle;
+    private Car cb = (Car) biycicle;
 }

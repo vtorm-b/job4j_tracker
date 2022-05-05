@@ -8,6 +8,7 @@ public class Airplane implements Vehicle {
         System.out.println(NM + "самолет летает по воздуху");
         System.out.println(TP + "Компания Аэрофлот");
     }
+
     @Override
     public void type() {
         //System.out.println(type + "Компания Аэрофлот");
