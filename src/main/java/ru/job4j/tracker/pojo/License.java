@@ -9,67 +9,71 @@ public class License {
     private String code;
     private Date created;
 
-
-    public License(String onwer, String model, String code, Date created) {
-        onwer = onwer;
-        model = model;
-        code = code;
-        created = created;
+    public License() {
+        /*this.owner = onwer;
+        this.model = model;
+        this.code = code;
+        this.created = created;*/
     }
 
-   @Override
+    public String getOwner() {
+        return owner;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public String getCode() {
+        return code;
+    }
+
+    public Date getCreated() {
+        return created;
+    }
+
+    public void setOwner(String owner) {
+        this.owner = owner;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public void setCode(String code) {
+        this.code = code;
+    }
+
+    public void setCreated(Date created) {
+        this.created = created;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(owner, model, code);
+    }
+
+    @Override
     public boolean equals(Object o) {
-        if (this == o) {
-            return true;
+        License license = (License) o;
+            if (this == o) {
+                return true;
+            }
             if (o == null || getClass() != o.getClass()) {
                 return false;
-                License license = (License) o;
-                return Objects.equals(owner, license.owner)
-                        && Objects.equals(model, license.model)
-                        && Objects.equals(code, license.code)
-                        && Objects.equals(created, license.created);
             }
+            return Objects.equals(owner, license.owner)
+                    && Objects.equals(model, license.model)
+                    && Objects.equals(code, license.code)
+                    && Objects.equals(created, license.created);
         }
     }
 
-        @Override
-        public int hashCode () {
-            return Objects.hash(owner, model, code, created);
-        }
 
-        public String getOwner () {
-            return owner;
-        }
 
-        public void setOwner (String owner){
-            this.owner = owner;
-        }
 
-        public String getModel () {
-            return model;
-        }
 
-        public void setModel (String model){
-            this.model = model;
-        }
 
-        public String getCode () {
-            return code;
-        }
-
-        public void setCode (String code){
-            this.code = code;
-        }
-
-        public Date getCreated1234 () {
-            return created;
-        }
-
-        public void setCreated (Date created){
-            this.created = created;
-        }
-    }
-}
 
 
 

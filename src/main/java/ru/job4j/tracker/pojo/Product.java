@@ -10,6 +10,7 @@ public class Product {
         this.name = name;
         this.count = count;
     }
+
     public String getName() {
         return name;
     }
@@ -26,10 +27,10 @@ public class Product {
         this.count = count;
     }
 
-
         public int hashCode() {
             return Objects.hash(name, count);
         }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) {
