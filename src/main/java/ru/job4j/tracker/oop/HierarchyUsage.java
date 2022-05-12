@@ -10,3 +10,4 @@ public class HierarchyUsage {
     private Object biycicle;
     private Car cb = (Car) biycicle;
 }
+
