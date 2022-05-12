@@ -11,6 +11,5 @@ public class Airplane implements Vehicle {
 
     @Override
     public void type() {
-        //System.out.println(type + "Компания Аэрофлот");
-    }
+        }
 }
