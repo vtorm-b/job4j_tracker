@@ -1,13 +1,16 @@
 package ru.job4j.tracker.poly;
 
 public interface Transport {
-    String drive(String drive);
 
-    default int passenger(String passenger) {
+    default int drive(int drive) {
         return 0;
     }
 
-    default int fuel(String price) {
+    default int passenger(int passenger) {
+        return 0;
+    }
+
+    default int fuel(int price) {
         return 0;
     }
 }
