@@ -32,7 +32,6 @@ public class StartUI {
             int select = input.askInt("Выберите пункт меню:");
             if (select == 0) {
                 StartUI.createItem(input, tracker);
-
             } else if (select == 1) {
                 System.out.println("=== Show all items ===");
                 Item[] items = tracker.findAll();
@@ -40,7 +39,6 @@ public class StartUI {
                     for (Item item : items) {
                         System.out.println(item);
                     }
-
                 } else {
                     System.out.println("Хранилище еще не содержит заявок");
                 }
