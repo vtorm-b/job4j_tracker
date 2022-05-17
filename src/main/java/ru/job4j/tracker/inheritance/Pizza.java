@@ -1,4 +1,4 @@
-package ru.job4j.tracker.inheritance;
+/*package ru.job4j.tracker.inheritance;
 
 public class Pizza {
     private String name;
@@ -9,3 +9,4 @@ public class Pizza {
         return "Jast tasty pizza";
     }
 }
+*/
