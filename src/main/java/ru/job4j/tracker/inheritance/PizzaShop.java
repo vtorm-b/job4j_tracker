@@ -1,4 +1,4 @@
-package ru.job4j.tracker.inheritance;
+/*package ru.job4j.tracker.inheritance;
 
 public class PizzaShop {
     public static void main(String[] args) {
@@ -9,4 +9,4 @@ public class PizzaShop {
         System.out.println(pizzaExtraCheese.name());
         System.out.println(pizzaExtraCheeseExtraTomato.name());
     }
-}
+}*/

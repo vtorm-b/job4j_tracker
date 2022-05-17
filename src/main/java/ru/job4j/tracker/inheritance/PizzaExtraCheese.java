@@ -1,15 +1,14 @@
-package ru.job4j.tracker.inheritance;
+/*package ru.job4j.tracker.inheritance;
 
 public class PizzaExtraCheese extends Pizza {
-    private static String cheese;
-    private static final String nm = cheese;
+    private static final String pizza = "cheese";
     public PizzaExtraCheese(String name) {
-        super(name);
+        super(pizza);
     }
 
     @Override
     public String name(){
-        return nm + super.name();
+        return "Jast tasty pizza" + super.name();
     }
 }
-
+*/
