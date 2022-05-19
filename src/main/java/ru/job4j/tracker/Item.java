@@ -11,11 +11,11 @@ public class Item {
         return created;
     }*/
 
-    public Item(String name) {
+    public Item(int i, String name, int i1) {
         this.name = name;
     }
 
-    public Item(int id, String name, int price) {
+    public Item(int id) {
         this.name = name;
         this.id = id;
         this.price = price;
@@ -29,7 +29,7 @@ public class Item {
     }
 
     public static void main(String[] args) {
-        Item first = new Item("тетрадь");
+        Item first = new Item(001, "тетрадь", 10);
         first.printInfo();
         Item second = new Item(001, "карандаш", 10);
         second.printInfo();

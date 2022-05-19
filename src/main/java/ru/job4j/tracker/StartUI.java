@@ -4,23 +4,23 @@ public class StartUI {
     public static void createItem(Input input, Tracker tracker) {
         System.out.println("==Create add new Item==");
         String name = input.askStr("Введите имя заявки:");
-        Item item = new Item(name);
+        Item item = new Item(001, name, 10);
         tracker.add(item);
         System.out.println("Добавлена заявка: " + item);
     }
 
     public static void editItem(Input input, Tracker tracker) {
         System.out.println("==Edit item==");
-        String name = input.askStr("Введите id заявки:");
-        Item item = new Item(name);
+        int id = input.askInt("Введите id заявки:");
+        Item item = new Item(id);
         tracker.add(item);
         System.out.println("Введите id заявки:");
     }
 
     public static void deleteItem(Input input, Tracker tracker) {
         System.out.println("==Delete item==");
-        String name = input.askStr("Введите id заявки");
-        Item item = new Item(name);
+        int id = input.askInt("Введите id заявки");
+        Item item = new Item(id);
         tracker.delete(item.getId());
     }
 
