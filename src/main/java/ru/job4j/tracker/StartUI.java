@@ -47,8 +47,6 @@ public class StartUI {
             } else {
                 System.out.println("Ошибка замены заявки.");
             } if (select == 3) {
-                //System.out.println("===Delete item===");
-                //System.out.print("Enter id: ");
                 int id = input.askInt("Введите id заявки:");
                 if (tracker.delete(id)) {
                     System.out.println("Заявка удалена успешно");
@@ -76,8 +74,6 @@ public class StartUI {
             } else if (select == 6) {
                 run = false;
                 System.out.println("Пользователь выбрал:" + select);
-            } else {
-                run = false;
             }
         }
     }
