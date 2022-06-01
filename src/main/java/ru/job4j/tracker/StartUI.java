@@ -73,7 +73,7 @@ public class StartUI {
                 }
             } else if (select == 6) {
                 run = false;
-                System.out.println("Пользователь выбрал:" + select);
+               // System.out.println("Пользователь выбрал:" + select);
             }
         }
     }
