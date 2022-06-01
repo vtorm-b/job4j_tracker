@@ -46,7 +46,8 @@ public class StartUI {
                 StartUI.editItem(input, tracker);
             } else {
                 System.out.println("Ошибка замены заявки.");
-            } if (select == 3) {
+            }
+            if (select == 3) {
                 int id = input.askInt("Введите id заявки:");
                 if (tracker.delete(id)) {
                     System.out.println("Заявка удалена успешно");
