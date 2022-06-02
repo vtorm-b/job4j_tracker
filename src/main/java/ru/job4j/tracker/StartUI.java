@@ -56,13 +56,11 @@ public class StartUI {
                 }
             } else if (select == 4) {
                 System.out.println("===Find items by Id===");
-                //System.out.print("Enter Id");
                 int id = input.askInt("Введите id заявки:");
                 Item item = tracker.findById(id);
                 System.out.println(item);
             } else if (select == 5) {
                 System.out.println("=== Find items by name ===");
-                //System.out.print("Enter name: ");
                 String name = input.askStr("Введите имя заявки:");
                 Item[] items = tracker.findByName(name);
                 if (items.length > 0) {
@@ -74,7 +72,6 @@ public class StartUI {
                 }
             } else if (select == 6) {
                 run = false;
-               // System.out.println("Пользователь выбрал:" + select);
             }
         }
     }
