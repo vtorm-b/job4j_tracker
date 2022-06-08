@@ -26,7 +26,7 @@ public class StartUI {
         int id = input.askInt("Введите id заявки:");
         String name = input.askStr("Введите имя заявки");
         Item item = new Item(name);
-        if (tracker.replace(id, item)){
+        if (tracker.replace(id, item)) {
         System.out.println("Заявка удалена успешно");
     } else {
             System.out.println("Ошибка замены заявки");
@@ -79,7 +79,7 @@ public class StartUI {
             } else if (select == 2) {
                 editItem(input, tracker);
             } if (select == 3) {
-                deleteItem(input,tracker);
+                deleteItem(input, tracker);
             } else if (select == 4) {
                 findById(input, tracker);
             } else if (select == 5) {
