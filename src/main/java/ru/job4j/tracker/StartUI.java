@@ -78,7 +78,8 @@ public class StartUI {
                 findAllItems(tracker);
             } else if (select == 2) {
                 editItem(input, tracker);
-            } if (select == 3) {
+            }
+            if (select == 3) {
                 deleteItem(input, tracker);
             } else if (select == 4) {
                 findById(input, tracker);
