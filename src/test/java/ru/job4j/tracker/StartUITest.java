@@ -38,6 +38,4 @@ public class StartUITest {
         "deleted item" };
         StartUI.deleteItem(new StubInput(answer), tracker);
     }
-
-
 }
