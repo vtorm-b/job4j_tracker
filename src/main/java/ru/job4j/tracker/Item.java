@@ -18,10 +18,6 @@ public class Item {
     public String getName() {
         return name;
     }
-    public Item(int id) {
-        // this.name = name;
-        this.id = id;
-    }
 
     public int getId() {
         return id;
